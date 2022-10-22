@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>CSS-HTML refactor</title>
 </head>
 
 <body>
@@ -12,7 +12,9 @@
 
     <section class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+
+        <!-- Used nav tag instead of div (nav is used for inks)-->
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -24,7 +26,7 @@
                     <a href="#social-media-marketing">Social Media Marketing!</a>
                 </li>
             </ul>
-        </div>
+        </nav>
     </section>
 
     <!-- dded image link and used class within <img> tag-->
@@ -32,9 +34,11 @@
       <img class="hero" src="./assets/images/digital-marketing-meeting.jpg" />
 
    
-      <!--replace div with section and added alt text to the images-->
+    <!--replace div with section intorduced artical tag and class , also added alt test to the images-->
     <section class="content">
-        <article class="search-engine-optimization">
+
+        <!-- Used articleText as geneirc class for similar artical style-->
+        <article class="articleText">
             <img src="./assets/images/search-engine-optimization.jpg" alt= "search optimazation image" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -43,7 +47,7 @@
                 your visibility and find the right customers for your business.
             </p>
         </article>
-        <article class="online-reputation-management" class="online-reputation-management">
+        <article class="articleText">
             <img src="./assets/images/online-reputation-management.jpg" alt= "online reputation Management image" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -52,7 +56,7 @@
                 you the control over what potential customers see when they search for your business.
             </p>
         </article>
-        <article class="social-media-marketing" class="social-media-marketing">
+        <article class="articleText">
             <img src="./assets/images/social-media-marketing.jpg" alt= "social media marketing image" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -63,7 +67,9 @@
         </article>
     </section>
     <section class="benefits">
-        <section class="benefit-lead">
+
+        <!--Used benefit as generic class for similar style-->
+        <section class="benefit">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt= "Lead Generation image" />
             <p>
@@ -71,7 +77,7 @@
                 to your website.
             </p>
         </section>
-        <section class="benefit-brand">
+        <section class="benefit">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt = "Brand Awareness image" />
             <p>
@@ -79,7 +85,7 @@
                 for your business.
             </p>
         </section>
-        <section class="benefit-cost">
+        <section class="benefit">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt = "Benefit cost image" />
             <p>
