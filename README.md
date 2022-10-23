@@ -1,1 +1,27 @@
 # CSS-HTML-Code_Refactor_Challenge_Ansar
+## Description
+This project was to refactor the existing code to meet the accessbility standards. As a new learner of the front end development it was an exiting opurtunity to look at a wokring code and try to inhance the code for accessbility.
+
+## Challenges 
+	Understanding code with limited CSS HTML knowledge
+	Dealing with the div tags and 	Consoldating style.css.
+ 
+ 
+## Things I learned
+How chnages in CSS impact the HTML. we must make sure the changes made in the style sheet are reflected in the index.html otehrwise the web page will be broken.
+don't embed  image in style.css
+Use of Article and nav tag
+
+
+
+## learning material used
+https://www.developerdrive.com/what-are-semantic-html-tags/
+https://www.w3schools.com/html/ 
+
+
+ 
+## Contact
+
+If you have any questions, please contact me at: 
+ 
+  Email: am.07@live.co.uk
