@@ -12,14 +12,15 @@ How chnages in CSS impact the HTML. we must make sure the changes made in the st
 don't embed  image in style.css
 Use of Article and nav tag
 
+![1270015501starterindex html_23-10-2022](https://user-images.githubusercontent.com/56542637/197384485-6d7a9bb0-180c-41ae-aea4-088f783f877b.jpeg)
 
 
 ## learning material used
 https://www.developerdrive.com/what-are-semantic-html-tags/
+
 https://www.w3schools.com/html/ 
 
 
- 
 ## Contact
 
 If you have any questions, please contact me at: 
