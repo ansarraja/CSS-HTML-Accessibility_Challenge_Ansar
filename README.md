@@ -8,8 +8,9 @@ This project was to refactor the existing code to meet the accessbility standard
  
  
 ## Things I learned
-How chnages in CSS impact the HTML. we must make sure the changes made in the style sheet are reflected in the index.html otehrwise the web page will be broken.
-don't embed  image in style.css
+How changges in CSS impact the HTML.
+We must make sure the changes made in the style sheet are reflected in the index.html otehrwise the web page will be broken.
+Don't embed  image in style.css
 Use of Article and nav tag
 
 ![1270015501starterindex html_23-10-2022](https://user-images.githubusercontent.com/56542637/197384485-6d7a9bb0-180c-41ae-aea4-088f783f877b.jpeg)
